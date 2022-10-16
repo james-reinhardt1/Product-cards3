@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Special Elite', cursive;
+}
+
+.title {
+  border: solid 1px lightblue;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 12px;
+  text-decoration: underline;
+  
+}
+
+.description {
+  text-align: justify;
+}
+
+.availability {
+  text-align: justify;
+  background-color: darkgrey;
+  color: rgb(230, 230, 35);
+  width: auto;
+}
+
+footer {
+  font-size: 10px;
+}
+
+.prod-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+td {
+  border: solid 1px lightblue;
+}
+
+.bold {
+font-size: larger;
+font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+  body {
+    color: blue;
+  }
+}
